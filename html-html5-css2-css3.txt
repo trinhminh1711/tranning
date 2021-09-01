@@ -3,52 +3,50 @@ HTML/ HTML5, CSS2, CSS3
 
 + Tìm hiểu các thẻ html/html5
     * html 
-        <!DOCTYPE>               
-        <meta>
-        <head>
-        <title>
-        <style>
-        <link>
-        <script>
-        <noscript>
-        <b>
-        <body>
-        <a>
-        <p>
-        <i>
-        <strong>
-        <sub> , <sup>
-        <hr>
-        <button>
-        <img />
-        <div>
-        <form>
-        <h1> -> <h6>
-        <input>
-        <label>
-        <select>
-        <option>
-        <table>
-        <thead>
-        <tbody>
-        <td>
-        <tr>
-        <textarea>
-        <ul> <li>
-        <ol> <li>
+        <!DOCTYPE> : Định nghĩa phiên bản HTML
+        <meta> : Định nghĩa các thông tin cơ bản như mô tả trang web, từ khóa
+        <head> : Chứa các thẻ title , meta ( chứa các thẻ thông tin của trang web ) 
+        <title> : Thẻ chứa tiêu đề cho toàn bộ văn bản
+        <style> : Thẻ định kiểu chứa các css 
+        <link> : Thẻ link đường dẫn đến styles sheet
+        <script> : Thẻ chứa các chức năng, giao tiếp phía trình duyệt
+        <noscript> : Thẻ định nghĩa các chức năng hay hành động khi trình duyệt không hỗ trợ JS
+        <b> : Bôi đậm đoạn văn bản trong thẻ
+        <body> : Định nghĩa toàn bộ phần thân bố cục trang
+        <a> : thẻ link
+        <p> : thẻ định nghĩa đoạn văn
+        <i> : Làm nghiêng đoạn văn bản trong thẻ
+        <strong> : Nhấn mạnh đoạn văn bản trong thẻ
+        <sub> , <sup> : Thêm kí hiệu trên hoặc dưới 
+        <hr> : Thẻ kẻ ngang ngắt 1 đoạn tài liệu
+        <button> : Tạo 1 nút
+        <img /> : Tạo 1 ảnh
+        <div> : gom 1 nhóm các thành phần
+        <form> : tạo 1 biểu mẫu lấy dữ liệu
+        <h1> -> <h6> : các thẻ tiêu đề của các đoạn
+        <input> Tạo 1 box nhận hành đông từ người dùng
+        <label> Thẻ nhãn gán cho thẻ input
+        <select> Tạo 1 hộp nhiều lựa chọn 
+        <option> Tạo 1 lựa chọn trong hộp select
+        <table> Tạo 1 bảng 
+        <thead> Tạo tiêu đề 1 bảng
+        <tbody>  : Nhóm các nội dung trong 1 bảng
+        <td> : tạo 1 ô trong bảng
+        <tr> : tạo 1 hàng trong bảng
+        <textarea> : tạo 1 box nhập văn bản dài
+        <ul> <li> : tạo danh sách list
+        <ol> <li>  : tạo danh sách list
 
-        * <frame>
+        * <frame> (chỉ có html) đính kèm phần của trang khác vào trang hiện tại
 
     * html5 
     
-        <video>
-        <canvas>
-        <bdi>
-        <embed>
-        <footer>
-        <header>
-        <main>
-        <section>
-        <source>
-        <video>
-        <iframe>
+        <video> : thêm 1 video
+        <canvas> : được sử dụng để vẽ ra 1 giao diện thông qua các điểm được định nghĩa bằng JS
+        <footer> : định nghĩa phần dưới của tài liệu
+        <header> : định nghĩa phần đầu của tài liệu
+        <main> : định nghĩa phần thân của tài liệu
+        <section> : định nghĩa phần phần  của tài liệu
+        <source> : định nghĩa các nguồn cho thẻ video hoặc audio
+        <audio> : thêm 1 đoạn audio
+        <iframe> :  đính kèm phần của trang khác vào trang hiện tại
