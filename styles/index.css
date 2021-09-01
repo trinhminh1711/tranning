@@ -254,7 +254,7 @@ html[xmlns] .clearfix {
 
 .register__banner {
   width: 50%;
-  background: url("../../../uploads/form-banner-bg.png");
+  background: url("../uploads/form-banner-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 5rem;
