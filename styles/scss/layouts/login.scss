@@ -1,0 +1,143 @@
+@import "../abstract/variables";
+@import "../abstract/mixins";
+
+.register__form {
+  background: $color-gold;
+  padding: 5rem;
+  width: 50%;
+  .register__form__countdown {
+    ul {
+      margin-top: 2rem;
+      @include align-horizontal;
+      li {
+        & p:first-of-type {
+          font-size: 4.8rem;
+          color: $color-white;
+          background-color: $color-alert;
+          border-radius: 1.6rem;
+          padding: 1.5rem;
+          margin: 0 1rem;
+        }
+        & p:last-of-type {
+          font-size: 1.6rem;
+          color: $color-white;
+          text-align: center;
+          margin-top: 5px;
+        }
+      }
+    }
+
+    & > p {
+      font-size: 2.2rem;
+      color: $color-white;
+    }
+  }
+  .register__form__textbox {
+    h4 {
+      font-size: 2rem;
+      text-align: center;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: $color-white;
+      margin-top: 6.7rem;
+    }
+    & > p {
+      font-size: 2.2rem;
+      line-height: 115%;
+      text-align: center;
+      color: #004353;
+    }
+    form {
+      @include flex("col");
+      max-width: calc((298 / 522) * 100%);
+      margin: 0 auto;
+      input {
+        padding: 1.2rem;
+        border-radius: 16px;
+        &::placeholder {
+          opacity: 0.5;
+          font-size: 1.4;
+        }
+      }
+      button {
+        margin: 0 auto;
+        margin-top: 3rem;
+        max-width: calc((298 / 522) * 100%);
+      }
+    }
+  }
+}
+.register__banner {
+  width: 50%;
+  background: url("../../../uploads/form-banner-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem;
+  position: relative;
+  .register__banner__textbox {
+    h4 {
+      font-size: 20px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: $color-gold;
+    }
+    p {
+      font-weight: normal;
+      font-size: 22px;
+      color: $color-dark;
+    }
+  }
+  img {
+    width: calc ((360 / 522) * 100%);
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+  }
+  .saleoff__box {
+    @include align-vertical("center");
+    @include align-horizontal("center");
+    max-width: 156px;
+    min-height: 156px;
+    padding: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: calc((93 / 522) * 100% );
+    right: calc((40 / 522) * 100% );
+    background: linear-gradient(
+      127.21deg,
+      #bd6728 -43.73%,
+      #c47330 -32.67%,
+      #d79345 -12.63%,
+      #f5c767 13.92%,
+      #ffd872 22.11%,
+      #f1c062 33.65%,
+      #d59043 59.29%,
+      #c4722f 78.87%,
+      #bd6728 89.95%
+    );
+    & span {
+      font-size: 9.6rem;
+      color: $color-white;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .saleoff__box__percent
+    {
+        color: $color-white;
+       & p:first-of-type
+        {
+            font-size: 3.4rem;
+        }
+        & p:last-of-type
+        {
+            font-size: 1.8rem;
+            line-height: 2.1rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+        }
+    }
+
+  }
+}

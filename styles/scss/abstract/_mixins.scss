@@ -1,0 +1,89 @@
+@import "./variables";
+@mixin align-horizontal ($place : 'center'){
+    @if($place == 'center')
+    {
+        display: flex;
+        justify-content: center;
+    }
+    @if($place == 'left')
+    {
+        display: flex;
+        justify-content: flex-start;
+    }
+    @if($place == 'right')
+    {
+        display: flex;
+        justify-content: flex-end;
+    }
+    @if($place == 'between')
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@mixin align-vertical ($place : 'center'){
+    @if($place == 'center')
+    {
+        display: flex;
+        align-items: center;
+    }
+    @if($place == 'left')
+    {
+        display: flex;
+        align-items: center;
+    }
+    @if($place == 'right')
+    {
+        display: flex;
+        align-items: center;
+    }
+    @if($place == 'between')
+    {
+        display: flex;
+        align-items: center;
+    }
+}
+@mixin flex($box:'row')
+{
+    @if $box == 'row' {
+        display: flex;
+        flex-direction: row;;
+    }
+    @if $box == 'col' {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+@mixin Responsive($canvas) {
+    @if $canvas == Xs {
+      img {
+        max-width: 100%;
+      }
+      @media (max-width: $extra-small) {
+        @content;
+      }
+    } @else if $canvas == Sm {
+      @media (min-width: $extra-small+1px) and (max-width: $mobile-landscape) {
+        @content;
+  
+      }
+    } @else if $canvas == Md {
+      @media (min-width: $mobile-landscape+1px) and (max-width: $mobile) {
+        @content;
+      }
+    } @else if $canvas == Lg {
+      @media (min-width: $mobile+1px) and (max-width: $handheld) {
+        @content;
+      }
+    } @else if $canvas == XL {
+      @media (min-width: $handheld+1px) and (max-width: $small-desktop) {
+        @content;
+      }
+    } @else if $canvas == XXL {
+      @media (min-width: $small-desktop+1px) and (max-width: $large-desktop) {
+        @content;
+      }
+    }
+  }

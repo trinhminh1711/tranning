@@ -1,0 +1,54 @@
+STT 1 :
+HTML/ HTML5, CSS2, CSS3
+
++ Tìm hiểu các thẻ html/html5
+    * html 
+        <!DOCTYPE>               
+        <meta>
+        <head>
+        <title>
+        <style>
+        <link>
+        <script>
+        <noscript>
+        <b>
+        <body>
+        <a>
+        <p>
+        <i>
+        <strong>
+        <sub> , <sup>
+        <hr>
+        <button>
+        <img />
+        <div>
+        <form>
+        <h1> -> <h6>
+        <input>
+        <label>
+        <select>
+        <option>
+        <table>
+        <thead>
+        <tbody>
+        <td>
+        <tr>
+        <textarea>
+        <ul> <li>
+        <ol> <li>
+
+        * <frame>
+
+    * html5 
+    
+        <video>
+        <canvas>
+        <bdi>
+        <embed>
+        <footer>
+        <header>
+        <main>
+        <section>
+        <source>
+        <video>
+        <iframe>

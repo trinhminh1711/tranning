@@ -1,0 +1,28 @@
+@import './scss/abstract/variables';
+@import './scss/abstract/mixins';
+@import './responsive.scss';
+@import './scss/base/reset.scss';
+@import './scss/layouts/login.scss';
+@import './scss/base/typography.scss';
+.container
+{
+    width: 1040px;
+    margin: 0 auto;
+}
+.d-flex
+{
+    display: flex;
+}
+.text-center
+{
+    text-align: center;
+}
+.btn--shadow
+{
+    background: #E5AB55;
+    box-shadow: 0px 4px 20px #C17607;
+    border-radius: 16px;  
+    padding: 1.2rem;
+    font-size: 14px;
+    color: $color-white;
+}
