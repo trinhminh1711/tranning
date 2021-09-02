@@ -50,3 +50,37 @@ HTML/ HTML5, CSS2, CSS3
         <source> : định nghĩa các nguồn cho thẻ video hoặc audio
         <audio> : thêm 1 đoạn audio
         <iframe> :  đính kèm phần của trang khác vào trang hiện tại
+
++ Tìm hiểu các thẻ css2 / css3 
+
+        css3 -  Sự đổi mới
+
+        Các quy tắc Selector : 
+        ví dụ : Lấy các thẻ input có type = text 
+        - input[type = "text"];
+        Selector khác như : :root , :nth-child(n) ,:nth-last-child(n) ,:nth-of-type(n)
+                            :nth-last-of-type(n) , :empty , :target , :enabled
+                            :disabled ,:checked ,:not(s)...
+                            
+        Các thuộc tính css khác : 
+        - text-shadow: ;
+        -  box-shadow: ;
+        - drop-shadow : 
+        - linear-gradient : 
+        - radial-gradient : 
+        - Mã màu RGBA
+        * background
+        - background-clip
+        - background-origin
+        - background-size
+        - background-repeat
+        - background-attachment
+        - background
+
+        * Các thuộc tính border
+        - border-radius
+        - border-top-right-radius , border-bottom-right-radius , border-bottom-left-radius , border-top-left-radius
+        - border-image-source
+        - border-image-slice
+
+
