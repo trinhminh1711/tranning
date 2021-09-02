@@ -2,13 +2,17 @@
 @import './scss/abstract/mixins';
 @import './responsive.scss';
 @import './scss/base/reset.scss';
+@import './scss/layouts/register.scss';
 @import './scss/layouts/login.scss';
 @import './scss/base/typography.scss';
 .container
 {
     width: 1040px;
-    margin: 0 auto;
+    margin: 4rem auto 5rem auto;
+    display: flex;
+
 }
+
 .d-flex
 {
     display: flex;

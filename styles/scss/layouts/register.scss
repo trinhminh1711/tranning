@@ -1,0 +1,134 @@
+@import "../abstract/variables";
+@import "../abstract/mixins";
+
+.register__img {
+  @include col(8);
+  background-image: url(../../../uploads/register-img.jpg);
+  background: linear-gradient(
+      0deg,
+      rgba(12, 12, 12, 0.3),
+      rgba(12, 12, 12, 0.3)
+    ),
+    url(../../../uploads/register-img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.register__containt {
+  @include col(4);
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3rem 0.3rem 1em rgba(0, 0, 0, 0.3);
+  padding: 5rem 3rem 8rem 3rem;
+  .block__register h2 {
+    font-size: 4rem;
+    color: $color-dark;
+  }
+  .block__register__form {
+    .register__form__input {
+      position: relative;
+      input {
+        display: block;
+        width: 100%;
+        border: solid 1px #bdbdbd;
+        padding: 1rem;
+        border-radius: 8px;
+        margin-top: 2rem;
+        transition: all 0.3s ease-in;
+        &:focus {
+          border: solid 1px rgba(9, 9, 121, 1);
+          z-index: 2;
+          + label {
+            top: 0;
+            background-color: $color-white;
+            padding: 0 1rem;
+            opacity: 1;
+            left: 1rem;
+            display: inline-block;
+            color: #000;
+          }
+        }
+        &:not(:placeholder-shown) + label {
+          top: 0;
+          background-color: $color-white;
+          padding: 0 1rem;
+          opacity: 1;
+          left: 1rem;
+          display: inline-block;
+        }
+      }
+      label {
+        background-color: $color-white;
+        position: absolute;
+        color: #bdbdbd;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.4rem;
+        left: 1.8rem;
+        font-family: Roboto-300;
+
+        user-select: none;
+        pointer-events: none;
+        transition: all 0.2s ease-in-out;
+      }
+    }
+    input[type="checkbox"] {
+      width: 2rem;
+      height: 1.5rem;
+      margin: 0;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .submit__agree {
+      margin-top: 2rem;
+      span {
+        line-height: 1.3;
+        font-size: 1.3rem;
+        margin-left: 1rem;
+      }
+    }
+    .submit__button {
+      @include align-vertical;
+      margin-top: 4rem;
+      @include align-horizontal(between);
+      .btn--signup {
+        padding: 1rem 4rem;
+        color: $color-white;
+        font-size: 1.6rem;
+        border-radius: 2rem;
+        background: rgb(2, 0, 36);
+        background-image: linear-gradient(
+          to right,
+          hsl(211, 100%, 50%),
+          hsl(179, 100%, 30%)
+        );
+        transition: background-image 1s linear;
+        &:hover {
+          background-image: linear-gradient(
+            to right,
+            hsl(211, 100%, 50%) 100%,
+            hsl(179, 100%, 30%) 50%
+          );
+        }
+      }
+      .btn--signin {
+        position: relative;
+        padding: 0 0.8rem;
+        i {
+          transition: all 0.2s;
+          position: absolute;
+          left: 95%;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        &:hover i {
+          transform: translateX(0.4rem);
+          margin-left: 1rem;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 96%;
+        }
+      }
+    }
+  }
+}

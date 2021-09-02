@@ -72,8 +72,36 @@
   background: url("../../../uploads/form-banner-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 0% 0%;
   padding: 5rem;
   position: relative;
+	animation: animatedBackground 5s linear infinite;
+	-moz-animation: animatedBackground 5s linear infinite;
+	-webkit-animation: animatedBackground 5s linear infinite;
+	-ms-animation: animatedBackground 5s linear infinite;
+	-o-animation: animatedBackground 5s linear infinite;
+
+  @keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 100%; }
+  }
+  @-moz-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 100%; }
+  }
+  @-webkit-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 100%; }
+  }
+  @-ms-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 100%; }
+  }
+  @-o-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 100%; }
+  }
+  
   .register__banner__textbox {
     h4 {
       font-size: 20px;
@@ -88,7 +116,7 @@
     }
   }
   img {
-    width: calc ((360 / 522) * 100%);
+    width: calc ((360 / 522) * 100% );
     margin: 0 auto;
     display: block;
     position: absolute;

@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../resources/font-awsome-5.15.4/css/all.min.css">
     <link rel="stylesheet" href="../styles/index.css">
 </head>
 
 <body>
-<div class="container">
-    <div class="register__wrapper d-flex">
+    <div class="container">
         <div class="register__form">
             <div class="register__form__countdown">
                 <p class="text-center">Thời gian ưu đãi còn</p>
@@ -21,11 +21,11 @@
                         <p>Ngày</p>
                     </li>
                     <li>
-                        <p  id="countdown-hours">12</p>
+                        <p id="countdown-hours">12</p>
                         <p>Giờ</p>
                     </li>
                     <li>
-                        <p  id="countdown-minutes">45</p>
+                        <p id="countdown-minutes">45</p>
                         <p>Phút</p>
                     </li>
                     <li>
@@ -61,7 +61,47 @@
             </div>
         </div>
     </div>
-</div>
+
+    <div class="container">
+        <div class="col-6 register__img">
+            <img src="" alt="">
+        </div>
+        <div class="col-4 register__containt">
+            <div class="block__register">
+                <h2>Sign Up</h2>
+                <form class="block__register__form" action="">
+                    <div class="register__form__input">
+                        <input placeholder=" " type="text">
+                        <label for="">Name</label>
+                    </div>
+                    <div class="register__form__input">
+                        <input placeholder=" "  type="text">
+                        <label for="">Name</label>
+                    </div>
+                    <div class="register__form__input">
+                        <input placeholder=" "  type="text">
+                        <label for="">Email address</label>
+                    </div>
+                    <div class="register__form__input">
+                        <input placeholder=" "  type="text">
+                        <label for="">Password</label>
+                    </div>
+                    <div class="register__form__input">
+                        <input placeholder=" "  type="text">
+                        <label for="">Password repeat</label>
+                    </div>
+                    <div class="submit__agree d-flex">
+                        <input placeholder=" "  type="checkbox" checked="checked">
+                        <span>I agree to the Terms of User</span>
+                    </div>
+                    <div class="submit__button">
+                        <button class="btn--signup">Sign Up</button>
+                        <button class="btn--signin">Sign in <i class="fas fa-long-arrow-alt-right"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="../scripts/script.js"></script>
 

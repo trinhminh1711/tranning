@@ -1,4 +1,10 @@
 @import "./variables";
+@mixin col($value) {
+
+  width: ($value / 12) * 100%;
+  flex-basis: ($value / 12) * 100%;
+  
+}
 @mixin align-horizontal ($place : 'center'){
     @if($place == 'center')
     {

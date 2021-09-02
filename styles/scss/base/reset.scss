@@ -69,6 +69,10 @@ button {
   outline: 0;
   background: transparent;
   border: 0;
+  &:hover
+  {
+    cursor: pointer;
+  }
 }
 h1,
 h2,
