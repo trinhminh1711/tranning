@@ -1,5 +1,5 @@
 
-$('.customer__slide .owl-carousel').owlCarousel({
+/*$('.customer__slide .owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -75,7 +75,7 @@ $('.reason__slide .owl-carousel').owlCarousel({
         }
     }
 });
-/*
+
 new WOW(
     {
         mobile: false,
