@@ -75,9 +75,9 @@ $('.reason__slide .owl-carousel').owlCarousel({
         }
     }
 });
-
+/*
 new WOW(
     {
         mobile: false,
     }
-).init();
+).init();*/
