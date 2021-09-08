@@ -1,0 +1,67 @@
+footer 
+{
+
+    background: #004353;
+    padding-bottom: 3.6rem;
+    &__title
+    {
+        color: $color-gold;
+        font-family: Playfair-nomal;
+    }
+    .info__item
+    {
+        svg 
+        {
+            margin-right: 8px;
+        }
+    }
+    .logo
+    {
+        display: flex;
+        img 
+        {
+            max-width: 100px;
+            height: 100px;
+        }
+        .footer__title
+        {
+            padding-top: 3.6rem;
+            color: $color-gold;
+        }
+
+    }
+    .company__info > p 
+    {
+        font-family: Roboto-400;
+        color: $color-gold;
+        font-size: $medium;
+        letter-spacing: 0;
+        padding-top: 3.6rem;
+        margin-bottom: 1.3rem;
+    }
+    .info__items
+    {
+        color: $color-white;
+        li 
+        { 
+            margin-top: 1rem;
+            line-height: 1.24;
+            span 
+            {
+                font-family: Roboto-400;
+                color: $color-white;
+                font-size: $medium;
+                letter-spacing: 0 ;
+            }
+
+
+        }
+    }
+    @include Responsive('XL')
+    {
+        .footer__wrapper
+        {
+           flex-direction: row !important;
+        }
+    }
+}

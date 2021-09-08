@@ -1,0 +1,73 @@
+@import "../abstract/variables";
+@import "../abstract/mixins";
+
+header {
+  background: url(../uploads/banner-top.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 0.5s ease-in-out;
+    &__logo {
+      position: absolute;
+      transform: translateY(1.1rem);
+    }
+    &__menu {
+      width: 100%;
+      justify-content: flex-end;
+      .menu__lists {
+        .menu__item {
+          text-transform: uppercase;
+          color: #828282;
+          font-size: $nomal;
+          margin-right: 3rem;
+          padding: 3.2rem 0;
+          position: relative;
+          &:hover {
+            color: $color-gold;
+            cursor: pointer;
+            &::after {
+              width: 100%;
+            }
+          }
+          &::after {
+            position: absolute;
+            content: " ";
+            width: 0%;
+            left: 0;
+            top: 70%;
+            height: 3px;
+            background-color: $color-gold;
+            transition: all 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+
+  @include Responsive("XL") {
+    .menu__mobile,
+    .menu--hidden {
+      display: none;
+    }
+    .navbar .container-fuild {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .navbar .navbar__menu {
+      flex-direction: row;
+      align-items: center !important;
+      position: relative;
+      left: 0;
+      .menu__item {
+        margin-right: 2rem !important;
+      }
+    }
+    .menu__lists {
+      flex-direction: row !important;
+    }
+  }
+}

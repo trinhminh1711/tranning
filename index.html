@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/resources/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./styles/animate.css" />
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container-fuild">
+                <div class="navbar__logo">
+                    <img src="./uploads/Logo.png" alt="">
+                </div>
+                <img id="mobile__icon" class="menu__mobile only-mobile" src="./uploads/menu.png" alt="">
+                <div id="menu__mobile" class="navbar__menu d-flex align-items-center">
+                    <ul class="menu__lists d-flex">
+                        <ion-icon id="menu--hidden" class="menu--hidden only-mobile" name="arrow-back-outline">
+                        </ion-icon>
+                        <a href="#advantage">
+                            <li class="menu__item">Ưu điểm</li>
+                        </a>
+                        <a href="#price">
+                            <li class="menu__item">Bảng giá</li>
+                        </a>
+                        <a href="#result">
+                            <li class="menu__item">Kết quả</li>
+                        </a>
+                        <a href="#feedback">
+                            <li class="menu__item">Feedback</li>
+                        </a>
+                        <a href="#introduce">
+                            <li class="menu__item">Giới thiệu dr.lena</li>
+                        </a>
+                    </ul>
+                    <button class="btn btn--highlight">
+                        Đăng kí ngay
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-md-8 col-12 banner__content wow animate__animated animate__fadeInLeft animate__slower">
+                        <div class="banner__text">
+                            <p>
+                                Phun môi
+                                <hr>
+                            </p>
+                            <h2>
+                                Sắc môi thời thượng
+                                Đẹp tự nhiên
+                            </h2>
+                            <p>
+                                Màu môi bền đẹp “thách thức” thời gian
+                            </p>
+                        </div>
+                        <div class="banner__countdown">
+                            <ul class="d-flex align-items-center">
+                                <li class="countdown__item">
+                                    <p id="countdown-days">
+                                        10
+                                    </p>
+                                    <p>
+                                        Ngày
+                                    </p>
+                                </li>
+                                <li class="countdown__item">
+                                    <p id="countdown-hours">
+                                        12
+                                    </p>
+                                    <p>
+                                        Giờ
+                                    </p>
+                                </li>
+                                <li class="countdown__item">
+                                    <p id="countdown-minutes">
+                                        45
+                                    </p>
+                                    <p>
+                                        Phút
+                                    </p>
+                                </li>
+                                <li class="countdown__item">
+                                    <p id="countdown-seconds">
+                                        57
+                                    </p>
+                                    <p>
+                                        Giây
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="btn btn--highlight">
+                            Đăng kí ngay
+                        </button>
+                    </div>
+                    <div class="col-md-4 col-12 banner__img wow animate__animated animate__fadeInRight animate__slow">
+                        <img src="./uploads/anh-mau.png" alt="">
+                        <div
+                            class="saleof wow animate__animated animate__heartBeat animate__slow animate__delay-1s animate__infinite">
+                            <p class="saleof__number">
+                                50
+                            </p>
+                            <div class="saleof__persent">
+                                <p>
+                                    %
+                                </p>
+                                <p>
+                                    OFF
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <section class="reason wow animate__animated animate__fadeIn animate__slow">
+        <div class="reason__title">
+            <h2 class="section__title"><span>7</span>nguyên nhân</h2>
+            <h3 class="section__subtitle reason__subtitle">Khiến môi bạn bị thâm, không hấp dẫn</h3>
+        </div>
+        <div class="reason__slide container">
+            <div class="owl-carousel owl-theme">
+                <div class="item reason__item">
+                    <h4 class="reason__number--blur">
+                        01
+                    </h4>
+                    <img src="./uploads/reson-sun.png" alt="">
+                    <h5 class="item__title">Ánh nắng mặt trời</h5>
+                    <p>Ánh nắng mặt trời là nguyên nhân hàng đầu làm da vùng môi bị tổn thương và thúc đẩy việc sản
+                        xuất sắc tố melanin. Tia tử ngoại có trong ánh nắng còn làm môi khô tróc và dễ bị nứt nẻ, từ
+                        đó dẫn đến sắc tố môi bị đậm lại, xỉn màu rất mất thẩm mỹ.</p>
+                </div>
+
+                <div class="item reason__item">
+                    <h3 class="reason__number--blur">
+                        02
+                    </h3>
+                    <img src="./uploads/reson-water.png" alt="">
+                    <h5 class="item__title">Tình trạng mất nước</h5>
+                    <p>Cơ thể không được cung cấp đủ nước, không khí khô hanh do ngồi điều hòa hoặc tại vùng khí hậu
+                        lạnh (miền Bắc vào mùa đông) có khả năng làm mất đi lượng nước cần thiết để duy trì vẻ mịn
+                        màng của làn da, đồng thời sẽ làm cho môi bị khô tróc.</p>
+                </div>
+                <div class="item reason__item">
+                    <h3 class="reason__number--blur">
+                        03
+                    </h3>
+                    <img src="./uploads/reson-cigarette.png" alt="">
+                    <h5 class="item__title">Hút thuốc lá</h5>
+                    <p>Trong thuốc lá có chứa chất nicotine, đây là một loại chất hóa học nguy hiểm không chỉ ảnh
+                        hưởng xấu đến sức khỏe mà còn làm đôi môi biến màu và thâm dần khi dùng trong một thời gian
+                        dài</p>
+                </div>
+                <div class="item reason__item">
+                    <h3 class="reason__number--blur">
+                        01
+                    </h3>
+                    <img src="./uploads/reson-sun.png" alt="">
+                    <h5 class="item__title">Ánh nắng mặt trời</h5>
+                    <p>Ánh nắng mặt trời là nguyên nhân hàng đầu làm da vùng môi bị tổn thương và thúc đẩy việc sản
+                        xuất sắc tố melanin. Tia tử ngoại có trong ánh nắng còn làm môi khô tróc và dễ bị nứt nẻ, từ
+                        đó dẫn đến sắc tố môi bị đậm lại, xỉn màu rất mất thẩm mỹ.</p>
+                </div>
+                <div class="item reason__item">
+                    <h3 class="reason__number--blur">
+                        02
+                    </h3>
+                    <img src="./uploads/reson-water.png" alt="">
+                    <h5 class="item__title">Tình trạng mất nước</h5>
+                    <p>Cơ thể không được cung cấp đủ nước, không khí khô hanh do ngồi điều hòa hoặc tại vùng khí hậu
+                        lạnh (miền Bắc vào mùa đông) có khả năng làm mất đi lượng nước cần thiết để duy trì vẻ mịn
+                        màng của làn da, đồng thời sẽ làm cho môi bị khô tróc.</p>
+                </div>
+                <div class="item reason__item">
+                    <h3 class="reason__number--blur">
+                        03
+                    </h3>
+                    <img src="./uploads/reson-cigarette.png" alt="">
+                    <h5 class="item__title">Hút thuốc lá</h5>
+                    <p>Trong thuốc lá có chứa chất nicotine, đây là một loại chất hóa học nguy hiểm không chỉ ảnh
+                        hưởng xấu đến sức khỏe mà còn làm đôi môi biến màu và thâm dần khi dùng trong một thời gian
+                        dài</p>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <p>Làm thế nào để môi hồng đẹp tự nhiên?</p>
+            <div class="question__icon">
+                <svg width="60" height="121" viewBox="0 0 60 121" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.3"
+                        d="M28.3262 0.69999C37.8262 0.69999 45.4262 3.14999 51.1262 8.04999C56.9262 12.85 59.8262 19.4 59.8262 27.7C59.8262 35.9 56.7762 42.85 50.6762 48.55C44.6762 54.25 36.4762 58.4 26.0762 61V82.9H23.0762V59.65C32.2762 56.25 38.4762 52.25 41.6762 47.65C44.8762 42.95 46.4762 37.25 46.4762 30.55C46.4762 21.45 44.5762 14.7 40.7762 10.3C37.0762 5.89999 31.9762 3.7 25.4762 3.7C22.5762 3.7 19.7762 4.1 17.0762 4.9C14.4762 5.69999 12.3762 7.09999 10.7762 9.1C12.6762 9.49999 14.1762 10.35 15.2762 11.65C16.4762 12.95 17.0762 14.65 17.0762 16.75C17.0762 19.25 16.2762 21.25 14.6762 22.75C13.0762 24.15 11.1262 24.85 8.82617 24.85C6.52617 24.85 4.62617 24.1 3.12617 22.6C1.62617 21.1 0.876172 19.2 0.876172 16.9C0.876172 12.9 3.22617 9.29999 7.92617 6.09999C13.2262 2.49999 20.0262 0.69999 28.3262 0.69999ZM24.7262 100.9C27.3262 100.9 29.5762 101.85 31.4762 103.75C33.3762 105.65 34.3262 107.9 34.3262 110.5C34.3262 113.1 33.3762 115.35 31.4762 117.25C29.5762 119.15 27.3262 120.1 24.7262 120.1C22.1262 120.1 19.8762 119.15 17.9762 117.25C16.0762 115.35 15.1262 113.1 15.1262 110.5C15.1262 107.9 16.0762 105.65 17.9762 103.75C19.8762 101.85 22.1262 100.9 24.7262 100.9Z"
+                        fill="#E5AB55" />
+                </svg>
+            </div>
+        </div>
+    </section>
+    <section class="solution">
+        <img class="solution__logo" src="./uploads/solution-logo.png" alt="">
+        <h2 class="section__title">Đây là giải pháp dành
+            cho bạn!</h2>
+        <p class="section__subtitle">
+            Với công nghệ phun môi hiện đại, độc
+            quyền của Dr.Lena sẽ đem đến cho bạn vẻ
+            đẹp, sự tự tin
+        </p>
+        <div class="container">
+            <div class="row card__list">
+                <div class="col-md-6 col-12">
+                    <div class=" solution__card  wow animate__animated animate__fadeInUp animate__slow d-flex">
+                        <div class="card__img">
+                            <img src="./uploads/solution-1.png" alt="">
+                        </div>
+                        <div class="card__content">
+                            <h3 class="card__title">
+                                Môi nứt, thâm, tái nhạt
+                            </h3>
+                            <ul>
+                                <li>Giải quyết môi khô, nứt nẻ, tái nhạt, thường xuyên bong tróc vào mùa thu đông.
+                                </li>
+                                <li>Giảm khuyết điểm môi thâm xỉn </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class=" solution__card wow animate__animated animate__fadeInUp animate__slow d-flex">
+                        <div class="card__img">
+                            <img src="./uploads/solution-2.png" alt="">
+                        </div>
+                        <div class="card__content">
+                            <h3 class="card__title">
+                                Màu môi tự nhiên, tươi trẻ
+                            </h3>
+                            <ul>
+                                <li>Đem đến màu môi tươi tắn, căng mọng, hồng hảo</li>
+                                <li>Lên màu nhanh chỉ sau 1- 3 ngày. Không phai mờ</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class=" solution__card wow animate__animated animate__fadeInUp animate__slow  d-flex">
+                        <div class="card__img">
+                            <img src="./uploads/solution-3.png" alt="">
+                        </div>
+                        <div class="card__content">
+                            <h3 class="card__title">
+                                Công nghệ hiện đại
+                            </h3>
+                            <ul>
+                                <li>Công nghệ Châu Âu sẽ giúp tạo dáng môi, giúp đôi môi có viền tự nhiên, khắc phục
+                                    các vấn đề của môi bị lỗi như không đều, dày, mỏng…</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class=" solution__card wow animate__animated animate__fadeInUp animate__slow d-flex">
+                        <div class="card__img">
+                            <img src="./uploads/solution-4.png" alt="">
+                        </div>
+                        <div class="card__content">
+                            <h3 class="card__title">
+                                Môi đẹp tự nhiên quyến rũ
+                            </h3>
+                            <ul>
+                                <li>Bổ sung tinh chất collagen tự nhiên giúp môi căng bóng</li>
+                                <li>Không sưng, không đau, không nghỉ dưỡng </li>
+                                <li>Không xâm lấn</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="solution__submit d-flex justify-content-center  mrx-5">
+                <button class="btn btn--highlight">
+                    Đăng ký ngay
+                </button>
+            </div>
+        </div>
+
+    </section>
+    <section id="advantage" class="technology">
+        <div class="technology__title">
+            <h2 class="section__title"><span>3</span>công nghệ phun môi <br> hiện đại tại Dr.Lena</h2>
+            <h3 class="section__subtitle technology__subtitle">Khiến môi bạn bị thâm, không hấp dẫn</h3>
+        </div>
+        <div class="product__list">
+            <div class="container">
+                <div class="products">
+                    <div class="product__img">
+                        <img src="./uploads/solution-1.png" alt="">
+                    </div>
+                    <div class="product__textbox">
+                        <h4 class="product__title">
+                            PHUN MÔI COLLAGEN 3D
+                        </h4>
+                        <p class="product__description">
+                            Công nghệ điêu khắc với bổ sung tinh chất collagen tự nhiên ngay
+                            trong một lần thực hiện phun môi.
+                        </p>
+                        <div class="product__price">
+                            <del>12.000.000 đ</del>
+                            <ins>6.000.000 đ</ins>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product__list">
+            <div class="container">
+                <div class="products">
+                    <div class="product__textbox textbox--right">
+                        <h4 class="product__title">
+                            PHUN MÔI COLLAGEN 3D
+                        </h4>
+                        <p class="product__description">
+                            Công nghệ điêu khắc với bổ sung tinh chất collagen tự nhiên ngay
+                            trong một lần thực hiện phun môi.
+                        </p>
+                        <div class="product__price">
+                            <del>12.000.000 đ</del>
+                            <ins>6.000.000 đ</ins>
+                        </div>
+                    </div>
+                    <div class="product__img">
+                        <img src="./uploads/product-img-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product__list">
+            <div class="container">
+                <div class="products">
+                    <div class="product__img">
+                        <img src="./uploads/solution-1.png" alt="">
+                    </div>
+                    <div class="product__textbox">
+                        <h4 class="product__title">
+                            PHUN MÔI COLLAGEN 3D
+                        </h4>
+                        <p class="product__description">
+                            Công nghệ điêu khắc với bổ sung tinh chất collagen tự nhiên ngay
+                            trong một lần thực hiện phun môi.
+                        </p>
+                        <div class="product__price">
+                            <del>12.000.000 đ</del>
+                            <ins>6.000.000 đ</ins>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="technology__submit d-flex justify-content-center mrx-5">
+            <button class="btn btn--highlight">
+                Đăng ký ngay
+            </button>
+        </div>
+    </section>
+    <section class="promotion d-flex">
+        <div class="col-md-7 promotion__content">
+            <div class="promotion__textbox">
+                <h3 class="section__subtitle technology__subtitle">PHUN MÔI TẠI DR.LENA</h3>
+                <h2 class="section__title">Môi hồng - Đẹp tự nhiên</h2>
+                <p>
+                    Sau một thời gian thực hiện sẽ thấy sự khác biệt!
+                </p>
+                <hr>
+                <div class="d-flex align-items-center">
+                    <span><svg width="19" height="11" viewBox="0 0 19 11" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.5 0C13.1302 0 16.4222 1.92896 18.8513 5.06211C19.0496 5.31881 19.0496 5.67742 18.8513 5.93411C16.4222 9.07104 13.1302 11 9.5 11C5.86984 11 2.57783 9.07104 0.148659 5.93789C-0.0495625 5.68119 -0.0495625 5.32258 0.148659 5.06589C2.57822 1.92896 5.86984 0 9.5 0ZM9.23998 9.37303C11.6497 9.52025 13.6397 7.59128 13.4881 5.24708C13.3637 3.31434 11.7508 1.74777 9.76079 1.62697C7.35105 1.47975 5.36108 3.40872 5.51266 5.75292C5.64053 7.68188 7.2535 9.24846 9.23998 9.37303ZM9.36047 7.58373C10.6586 7.66301 11.7313 6.62491 11.6458 5.3641C11.5798 4.32224 10.7091 3.48044 9.63642 3.41249C8.33827 3.33322 7.26555 4.37131 7.35105 5.63212C7.42101 6.67776 8.29163 7.51956 9.36047 7.58373Z"
+                                fill="#E5AB55" />
+                        </svg>
+                    </span>
+                    <span class="promotion__view">Đang có <span>845</span> người xem sản phẩm này</span>
+                </div>
+                <div class="model d-flex align-items-center">
+                    <div class="col-md-6 col-12 model__img wow animate__animated animate__fadeInLeft animate__slow">
+                        <img src="./uploads/model-small.png" alt="">
+                    </div>
+                    <div class="model__textbox">
+                        <button class="btn btn--outline">
+                            Giảm 50 %
+                        </button>
+                        <p>Chỉ dành cho <span>199</span>khách hàng may mắn</p>
+                        <div class="line">
+                            <hr>
+                            <div class="line__comment">
+                                Nhanh tay lên!!!<br>
+                                chỉ còn 9 xuất
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5 promotion__countdown">
+            <div class="icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M21.4744 6.315C20.9775 6.55562 20.7694 7.15375 21.01 7.65063C21.6669 9.0075 22 10.4706 22 12C22 17.5138 17.5138 22 12 22C6.48625 22 2 17.5138 2 12C2 6.48625 6.48625 2 12 2C14.285 2 16.4312 2.74625 18.2081 4.1575C18.6388 4.50125 19.2694 4.42938 19.6131 3.99688C19.9569 3.565 19.885 2.93563 19.4525 2.59188C17.3494 0.920625 14.7025 0 12 0C5.38375 0 0 5.38375 0 12C0 18.6162 5.38375 24 12 24C18.6162 24 24 18.6162 24 12C24 10.1663 23.5994 8.40938 22.81 6.77938C22.57 6.28125 21.97 6.07375 21.4744 6.315ZM12 4C11.4481 4 11 4.44812 11 5V12C11 12.5519 11.4481 13 12 13H17C17.5519 13 18 12.5519 18 12C18 11.4481 17.5519 11 17 11H13V5C13 4.44812 12.5519 4 12 4Z"
+                        fill="white" />
+                </svg>
+            </div>
+            <p class="mt-2">Thời gian ưu đãi còn</p>
+            <div class="banner__countdown">
+                <ul class="d-flex justify-content-center">
+                    <li class="countdown__item">
+                        <p>
+                            10
+                        </p>
+                        <p>
+                            Ngày
+                        </p>
+                    </li>
+                    <li class="countdown__item">
+                        <p>
+                            12
+                        </p>
+                        <p>
+                            Giờ
+                        </p>
+                    </li>
+                    <li class="countdown__item">
+                        <p>
+                            45
+                        </p>
+                        <p>
+                            Phút
+                        </p>
+                    </li>
+                    <li class="countdown__item">
+                        <p>
+                            57
+                        </p>
+                        <p>
+                            Giây
+                        </p>
+                    </li>
+                </ul>
+                <button class="btn btn--shadow">
+                    Đăng ký ngay
+                </button>
+            </div>
+            <div class="promotion__service d-flex">
+                <div class="col-6 service__textbox">
+                    <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M5.63333 9.84375C4.4204 9.84375 3.43333 10.7902 3.43333 11.9531V17.6719C3.43333 18.8348 4.4204 19.7812 5.63333 19.7812C6.84627 19.7812 7.83333 18.8348 7.83333 17.6719V11.9531C7.83333 10.7902 6.84627 9.84375 5.63333 9.84375ZM1.96667 11.9531C1.96667 11.7502 1.99453 11.5542 2.02924 11.3611C1.14533 11.6348 0.5 12.4219 0.5 13.3594V16.2656C0.5 17.2031 1.14533 17.9902 2.02924 18.2639C1.99453 18.0708 1.96667 17.8748 1.96667 17.6719V11.9531ZM17.3667 9.84375C16.1537 9.84375 15.1667 10.7902 15.1667 11.9531V17.6719C15.1667 18.8348 16.1537 19.7812 17.3667 19.7812C17.5872 19.7812 17.7959 19.7405 17.9968 19.6823C17.724 20.55 16.8924 21.1875 15.9 21.1875H13.5651C13.2615 20.3709 12.4548 19.7812 11.5 19.7812C10.2871 19.7812 9.3 20.7277 9.3 21.8906C9.3 23.0536 10.2871 24 11.5 24C12.4548 24 13.261 23.4103 13.5651 22.5938H15.9C17.9216 22.5938 19.5667 21.0164 19.5667 19.0781V17.6719V11.9531C19.5667 10.7902 18.5796 9.84375 17.3667 9.84375ZM20.9708 11.3611C21.0055 11.5547 21.0333 11.7506 21.0333 11.9531V17.6719C21.0333 17.8748 21.0055 18.0708 20.9708 18.2639C21.8547 17.9902 22.5 17.2031 22.5 16.2656V13.3594C22.5 12.4219 21.8547 11.6348 20.9708 11.3611ZM11.5 0C5.43436 0 0.5 4.73109 0.5 10.5469V10.5647C0.937067 10.2473 1.44258 10.0153 2.0004 9.91172C2.34311 5.16797 6.46689 1.40625 11.5 1.40625C16.5331 1.40625 20.6569 5.16797 20.9996 9.91172C21.5574 10.0158 22.0629 10.2478 22.5 10.5647V10.5469C22.5 4.73109 17.5656 0 11.5 0Z"
+                            fill="white" />
+                    </svg>
+                    <h4>
+                        Tư vấn miễn phí
+                    </h4>
+                    <p>
+                        Đội ngũ chuyên gia Hỗ trợ <br> 24/7
+                    </p>
+                </div>
+                <div class="col-6 service__textbox">
+                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.5356 12.2588C21.4517 12.0944 21.4517 11.9053 21.5356 11.7409L22.3131 10.2147C22.7459 9.36515 22.4031 8.35229 21.5323 7.90933L19.9687 7.11325C19.8002 7.02732 19.6845 6.87459 19.6512 6.69412L19.3454 5.02112C19.1753 4.0895 18.2772 3.46373 17.3014 3.59615L15.5489 3.83404C15.3596 3.85982 15.1728 3.80123 15.0356 3.67388L13.7634 2.49305C13.0551 1.83565 11.9453 1.83565 11.237 2.49305L9.96484 3.67428C9.82765 3.80162 9.64039 3.85982 9.4515 3.83443L7.69897 3.59654C6.72318 3.46412 5.82514 4.08989 5.65497 5.02151L5.34925 6.69451C5.31627 6.87498 5.20066 7.02771 5.03212 7.11365L3.46849 7.90972C2.59691 8.35268 2.25414 9.36554 2.68687 10.2151L3.46401 11.7409C3.54787 11.9053 3.54787 12.0944 3.46401 12.2588L2.68687 13.785C2.25414 14.6346 2.59691 15.6474 3.46767 16.0904L5.03131 16.8865C5.19984 16.9724 5.31587 17.1251 5.34884 17.3056L5.65456 18.9786C5.80967 19.8266 6.56726 20.4211 7.43844 20.4211C7.52433 20.4211 7.61104 20.4153 7.69857 20.4036L9.45109 20.1657C9.63998 20.1399 9.82725 20.1985 9.96443 20.3258L11.2366 21.5067C11.5908 21.8356 12.0451 22 12.4998 22C12.9541 22 13.4088 21.8356 13.763 21.507L15.0352 20.3262C15.1723 20.1989 15.3596 20.1407 15.5485 20.1661L17.301 20.4039C18.2772 20.5364 19.1745 19.9106 19.345 18.979L19.6508 17.306C19.6837 17.1255 19.7993 16.9728 19.9683 16.8868L21.5319 16.0908C22.4027 15.6474 22.7455 14.6349 22.3127 13.7854L21.5356 12.2588ZM10.0955 6.80936C11.3107 6.80936 12.2995 7.75816 12.2995 8.92415C12.2995 10.0901 11.3107 11.0389 10.0955 11.0389C8.88035 11.0389 7.89153 10.0901 7.89153 8.92415C7.89153 7.75816 8.88035 6.80936 10.0955 6.80936ZM8.95811 16.2142C8.84086 16.3267 8.68698 16.3833 8.5331 16.3833C8.37922 16.3833 8.22534 16.3271 8.1081 16.2142C7.87321 15.9888 7.87321 15.624 8.1081 15.3986L16.0419 7.78589C16.2768 7.56051 16.657 7.56051 16.8919 7.78589C17.1268 8.01128 17.1268 8.3765 16.8919 8.6015L8.95811 16.2142ZM14.9041 17.1907C13.6889 17.1907 12.7001 16.2419 12.7001 15.076C12.7001 13.91 13.6889 12.9612 14.9041 12.9612C16.1192 12.9612 17.1081 13.91 17.1081 15.076C17.1081 16.2419 16.1192 17.1907 14.9041 17.1907ZM14.9041 14.1146C14.3517 14.1146 13.9022 14.5459 13.9022 15.076C13.9022 15.606 14.3517 16.0373 14.9041 16.0373C15.4565 16.0373 15.9059 15.606 15.9059 15.076C15.9059 14.5459 15.4565 14.1146 14.9041 14.1146ZM10.0955 7.96284C9.5431 7.96284 9.09367 8.39408 9.09367 8.92415C9.09367 9.45421 9.5431 9.88545 10.0955 9.88545C10.6479 9.88545 11.0974 9.45421 11.0974 8.92415C11.0974 8.39408 10.6479 7.96284 10.0955 7.96284Z"
+                            fill="white" />
+                    </svg>
+
+                    <h4>
+                        Tư vấn miễn phí
+                    </h4>
+                    <p>
+                        Chỉ 199 suất mừng ngày <br> nhà Giáo Việt Nam
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="result" class="customer">
+        <div class="container d-flex">
+            <div class="customer__title">
+                <p class="section__subtitle">
+                    Hình ảnh khách hàng đã phun môi
+                </p>
+                <h2 class="section__title">Tại viện thẩm mỹ Dr.Lena</h2>
+            </div>
+        </div>
+        </div>
+        <div class="customer__slide">
+            <div class="owl-carousel owl-theme">
+                <div class="item wow animate__animated animate__fadeInRight  animate__slow animate__delay-1s">
+                    <img src="./uploads/customer-img1.png" alt="">
+                </div>
+                <div class="item wow animate__animated animate__fadeInRight  animate__slow animate__delay-2s">
+                    <img src="./uploads/customer-img2.png" alt="">
+                </div>
+                <div class="item wow animate__animated animate__fadeInRight animate__slow animate__delay-3s">
+                    <img src="./uploads/customer-img-3.png" alt="">
+                </div>
+                <div class="item wow animate__animated animate__fadeInRight  animate__slow animate__delay-4s">
+                    <img src="./uploads/customer-img-4.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="price" class="service">
+        <div class="container">
+            <h2 class="section__title">Dịch vụ nổi bật</h2>
+            <p class="section__subtitle">
+                tại viện thẩm mỹ Dr. Lena
+            </p>
+            <div class="card__items d-flex">
+                <div class="col-md-4 card__item">
+                    <img src="./uploads/card-service-1.png" alt="">
+                    <div class="card__text">
+                        <h4 class="card__title">
+                            Phun mày
+                        </h4>
+                        <p class="card__description">
+                            Chân mày sẽ thanh thoát hơn nhờ lớp bột mịn được phủ lên sau đó thay vì những đường mực
+                            di đậm nét như ở các phương pháp khác. Màu sắc tự nhiên, không bị đổi màu hay biến dạng
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 card__item">
+                    <img src="./uploads/card-service-2.png" alt="">
+                    <div class="card__text">
+                        <h4 class="card__title">
+                            Phun mày
+                        </h4>
+                        <p class="card__description">
+                            Chân mày sẽ thanh thoát hơn nhờ lớp bột mịn được phủ lên sau đó thay vì những đường mực
+                            di đậm nét như ở các phương pháp khác. Màu sắc tự nhiên, không bị đổi màu hay biến dạng
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 card__item">
+                    <img src="./uploads/card-service-3.png" alt="">
+                    <div class="card__text">
+                        <h4 class="card__title">
+                            Phun mày
+                        </h4>
+                        <p class="card__description">
+                            Chân mày sẽ thanh thoát hơn nhờ lớp bột mịn được phủ lên sau đó thay vì những đường mực
+                            di đậm nét như ở các phương pháp khác. Màu sắc tự nhiên, không bị đổi màu hay biến dạng
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="feedback" class="comment">
+        <p class="section__subtitle">
+            Rất nhiều khách hàng
+        </p>
+        <h2 class="section__title">đã cảm thấy hài lòng!</h2>
+        <p class="text-center comment__number">Có tất cả <span id="comment__count">1856</span> bình luận</p>
+        <div class="comment__wrapper">
+            <div class="comment__items d-flex">
+                <div class="comment__img">
+                    <img src="./uploads/user-icon.png" alt="">
+                </div>
+                <div class="comment__text">
+                    <div class="comment__content">
+                        <p class="d-flex align-items-center"> <span class="user__name" id="usr-name">Thu Thảo</span>
+                            <span class="usr__rate">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+
+                            </span>
+                        </p>
+                        <p class="comment__time">30 phút trước</p>
+                        <p class="comment__desc">Mình phun môi pha lê 3D xong thấy môi bóng và sáng hơn trước nhiều lắm
+                        </p>
+                    </div>
+                    <div class="comment__react d-flex align-items-center">
+                        <p>
+                            <ion-icon class="like__icon" name="heart"></ion-icon>
+                            <span class="react__number">
+                                16
+                            </span>
+                        </p>
+                        <p class="feedback">
+                            Phản hồi
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="comment__items  main__comment d-flex">
+                <div class="comment__img">
+                    <img src="./uploads/user-comment-2.png" alt="">
+                </div>
+                <div class="comment__text">
+                    <div class="comment__content">
+                        <p class="d-flex align-items-center"> <span class="user__name" id="usr-name">Thu Thảo</span>
+                            <span class="usr__rate">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+
+                            </span>
+                        </p>
+                        <p class="comment__time">30 phút trước</p>
+                        <p class="comment__desc">Mình phun môi pha lê 3D xong thấy môi bóng và sáng hơn trước nhiều lắm
+                            Mình phun môi pha lê 3D xong thấy môi bóng và sáng hơn trước nhiều lắm Mình phun môi pha lê
+                            3D xong thấy môi bóng và sáng hơn trước nhiều lắm
+                        </p>
+                    </div>
+                    <div class="comment__react d-flex align-items-center">
+                        <p>
+                            <ion-icon class="like__icon  like--active" name="heart"></ion-icon>
+                            <span class="react__number">
+                                16
+                            </span>
+                        </p>
+                        <p class="feedback">
+                            Phản hồi
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="comment__items sub__comment d-flex">
+                <div class="comment__img">
+                    <img src="./uploads/user-comment-3.png" alt="">
+                </div>
+                <div class="comment__text">
+                    <div class="comment__content">
+                        <p class="d-flex align-items-center"> <span class="user__name" id="usr-name">Thu Thảo</span>
+                            <span class="usr__rate">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+
+                            </span>
+                        </p>
+                        <p class="comment__time">30 phút trước</p>
+                        <p class="comment__desc">Mình phun môi pha lê 3D xong thấy môi bóng và sáng hơn trước nhiều lắm
+                        </p>
+                    </div>
+                    <div class="comment__react d-flex align-items-center">
+                        <p>
+                            <ion-icon class="like__icon  like--active" name="heart"></ion-icon>
+                            <span class="react__number">
+                                16
+                            </span>
+                        </p>
+                        <p class="feedback">
+                            Phản hồi
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="comment__wrapper">
+            <div class="comment__items main__comment d-flex">
+                <div class="comment__img">
+                    <img src="./uploads/user-comment-2.png" alt="">
+                </div>
+                <div class="comment__text">
+                    <div class="comment__content">
+                        <p class="d-flex align-items-center"> <span class="user__name" id="usr-name">Thu Thảo</span>
+                            <span class="usr__rate">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+
+                            </span>
+                        </p>
+                        <p class="comment__time">30 phút trước</p>
+                        <p class="comment__desc">Mình phun môi pha lê 3D xong thấy môi bóng và sáng hơn trước nhiều lắm
+                        </p>
+                    </div>
+                    <div class="comment__react d-flex align-items-center">
+                        <p>
+                            <ion-icon class="like__icon" name="heart"></ion-icon>
+                            <span class="react__number">
+                                16
+                            </span>
+                        </p>
+                        <p class="feedback">
+                            Phản hồi
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="comment__items sub__comment d-flex">
+                <div class="comment__img">
+                    <img src="./uploads/user-comment-3.png" alt="">
+                </div>
+                <div class="comment__text">
+                    <div class="comment__content">
+                        <p class="d-flex align-items-center"> <span class="user__name" id="usr-name">Thu Thảo</span>
+                            <span class="usr__rate">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.56999 0.77002L8.81999 4.55002L13.12 5.53002L10.22 8.85002L10.62 13.23L6.56999 11.5L2.51999 13.23L2.90999 8.85002L0.019989 5.53002L4.30999 4.55002L6.56999 0.77002Z"
+                                        fill="#E5AB55" />
+                                </svg>
+
+                            </span>
+                        </p>
+                        <p class="comment__time">30 phút trước</p>
+                        <p class="comment__desc">Mình phun môi pha lê 3D xong thấy môi bóng và sáng hơn trước nhiều lắm
+                        </p>
+                    </div>
+                    <div class="comment__react d-flex align-items-center">
+                        <p>
+                            <ion-icon class="like__icon  like--active" name="heart"></ion-icon>
+                            <span class="react__number">
+                                16
+                            </span>
+                        </p>
+                        <p class="feedback">
+                            Phản hồi
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="comment__wrapper">
+            <div class="load__comment">
+                <div class="dot-elastic"></div> Có ai đó đang nhập bình luận
+            </div>
+        </div>
+    </section>
+    <section id="introduce">
+        <div class="introduce d-flex">
+            <div class="col-md-6 introduce__img wow animate__animated animate__fadeInLeft animate__slower">
+                <img src="./uploads/service-details1.png" alt="">
+            </div>
+            <div class="col-md-6 introduct__textbox">
+                <h2 class="section__title">Viện thẩm mỹ Y khoa Dr. Lena</h2>
+                <p class="section__subtitle">
+                    tận tâm, uy tín, chất lượng, an toàn
+                </p>
+                <p class="introduct__desc">Đội ngũ bác sĩ có tay nghề tại các thẩm mỹ viện lớn tại Hà Nội ấp ủ tham vọng
+                    liên kết lại với nhau
+                    từ những năm 2013, để phục vụ tốt hơn khách hàng khu vực miền Bắc, đặc biệt khách hàng cao cấp khu
+                    vực mới nổi cận thành Hà Nội như Vĩnh Phúc, Hải Phòng, Quảng Ninh, ...; Bằng việc liên tục chia sẻ
+                    kinh nghiệm xử lý những ca khó trong ngành thẩm mỹ và tập trung khắc phục các nhược điểm tồn tại về
+                    chăm sóc, phục vụ khách hàng của các thẩm mỹ viện hiện có. Từ đó cho ra đời Viện thẩm mỹ Y khoa
+                    Dr.Lena!</p>
+            </div>
+        </div>
+        <div class="introduce d-flex">
+            <div class="col-md-6 introduce__img wow animate__animated animate__fadeInRight animate__slow">
+                <img src="./uploads/service-details-2.png" alt="">
+            </div>
+            <div class="col-md-6 introduct__textbox">
+                <h2 class="section__title">Viện thẩm mỹ Y khoa Dr. Lena</h2>
+                <p class="section__subtitle">
+                    tận tâm, uy tín, chất lượng, an toàn
+                </p>
+                <p class="introduct__desc">Đội ngũ bác sĩ có tay nghề tại các thẩm mỹ viện lớn tại Hà Nội ấp ủ tham vọng
+                    liên kết lại với nhau
+                    từ những năm 2013, để phục vụ tốt hơn khách hàng khu vực miền Bắc, đặc biệt khách hàng cao cấp khu
+                    vực mới nổi cận thành Hà Nội như Vĩnh Phúc, Hải Phòng, Quảng Ninh, ...; Bằng việc liên tục chia sẻ
+                    kinh nghiệm xử lý những ca khó trong ngành thẩm mỹ và tập trung khắc phục các nhược điểm tồn tại về
+                    chăm sóc, phục vụ khách hàng của các thẩm mỹ viện hiện có. Từ đó cho ra đời Viện thẩm mỹ Y khoa
+                    Dr.Lena!</p>
+            </div>
+        </div>
+    </section>
+    <section class="cause">
+        <h2 class="section__title"> <span>6</span> lí do chọn Dr.Lena</h2>
+        <div class="container cause__items d-flex">
+            <div class="row">
+                <div class="cause__item col-md-4 d-flex align-items-center">
+                    <p class="cause__serial">
+                        1
+                    </p>
+                    <p class="cause__desc">
+                        DR.LENA là phòng khám chuyên khoa thẩm mỹ với thế mạnh chuyên sâu về DA LIỄU thẩm mỹ tại Việt
+                        Nam và
+                        số 1 tại Vĩnh Phúc.
+                    </p>
+                </div>
+                <div class="cause__item col-md-4 d-flex align-items-center">
+                    <p class="cause__serial">
+                        2
+                    </p>
+                    <p class="cause__desc">
+                        Đội ngũ Y bác sĩ hùng hậu, các bác sĩ đầu ngành đến từ bệnh viện lớn, bệnh viện trung ương
+                    </p>
+                </div>
+                <div class="cause__item col-md-4 d-flex align-items-center">
+                    <p class="cause__serial">
+                        3
+                    </p>
+                    <p class="cause__desc">
+                        Kinh nghiệm khám và điều trị, làm đẹp thẩm mỹ cho hơn 131,000 ca lâm sàng, trong đó có hơn 15,000 ca khó không thể xử lý tại các Viện thẩm mỹ khác
+                    </p>
+                </div>
+                <div class="cause__item col-md-4 d-flex align-items-center">
+                    <p class="cause__serial">
+                        4
+                    </p>
+                    <p class="cause__desc">
+                        Xây dựng phác đồ điều trị, làm đẹp phù hợp với từng khách hàng
+                    </p>
+                </div>
+                <div class="cause__item col-md-4 d-flex align-items-center">
+                    <p class="cause__serial">
+                        5
+                    </p>
+                    <p class="cause__desc">
+                        Là Viện thẩm mỹ duy nhất tại Vĩnh Phúc, đặt yếu tố "ĐẸP CHUẨN Y KHOA" làm yếu tố tiên quyết và cam kết đẹp với từng khách hàng.
+                    </p>
+                </div>
+                <div class="cause__item col-md-4 d-flex align-items-center">
+                    <p class="cause__serial">
+                        6
+                    </p>
+                    <p class="cause__desc">
+                        Quy trình Chăm sóc khách hàng từ A - Z, giúp bạn hài lòng khi tới Dr.Lena
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mrx-5">
+            <button class="btn btn--highlight">
+                Đăng ký ngay
+            </button>
+        </div>
+        <div class="container level d-flex">
+            <div class="col-md-6 level__img">
+                <h2 class="section__title">Về tay nghề bác sỹ</h2>
+                <img src="./uploads/doctor-img-1.png" alt="">
+            </div>
+            <div class="col-md-6 level__lists">
+                <ul>
+                    <li>
+                        Đội ngũ y bác sĩ hùng hậu, các bác sĩ đầu ngành đến từ bệnh viện Bạch Mai, bệnh viện Trung ương.
+                    </li>
+                    <li>Bác sĩ tu nghiệp tại Hàn Quốc, được cấp các chứng chỉ đào tạo liên quan tại Hàn Quốc</li>
+                    <li>Là bác sĩ chính và đối tác trước đó của nhiều thẩm mỹ viện lớn tại Hà Nội như Thẩm mỹ viện Y
+                        khoa Dr. Hải Lê, Thẩm mỹ viện Dr.Hasy, Thẩm mỹ viện PureSkin, … Chịu trách nhiệm về xây dựng quy
+                        trình trị liệu tại các thẩm mỹ viện.</li>
+                    <li>Là diễn giả chính của nhiều hội thảo lớn trong và ngoài nước, với quy mô hơn 1,001 khách mời.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <section class="company">
+        <div class="container d-flex">
+            <div class="">
+                <p class="section__subtitle text-left">
+                    Hình ảnh khách hàng đã phun môi
+                </p>
+                <h2 class="section__title">Tại viện thẩm mỹ Dr.Lena</h2>
+            </div>
+        </div>
+        </div>
+        <div id="company__img" class="company__img">
+            <div class="owl-carousel owl-theme">
+                <div class="item wow animate__animated animate__fadeInRight  animate__slow animate__delay-1s">
+                    <img src="./uploads/company-1.png" alt="">
+                </div>
+                <div class="item wow animate__animated animate__fadeInRight  animate__slow animate__delay-2s">
+                    <img src="./uploads/company-2.png" alt="">
+                </div>
+                <div class="item wow animate__animated animate__fadeInRight  animate__slow animate__delay-3s">
+                    <img src="./uploads/company-3.png" alt="">
+                </div>
+                <div class="item wow animate__animated animate__fadeInRight  animate__slow animate__delay-4s">
+                    <img src="./uploads/company-4.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="contact">
+            <h2 class="section__title">Bạn còn chờ đợi điều gì nữa?</h2>
+            <p class="section__subtitle text-center">
+                Vui lòng nhập thông tin bên dưới để đăng ký sớm nhất với dr.Lena
+            </p>
+            <div class="container d-flex">
+                <div class="col-md-6 contact__textbox">
+                    <h4 class="content__info">Thời gian ưu đãi còn</h4>
+                    <div class="banner__countdown">
+                        <ul class="d-flex justify-content-center">
+                            <li class="countdown__item">
+                                <p>
+                                    10
+                                </p>
+                                <p>
+                                    Ngày
+                                </p>
+                            </li>
+                            <li class="countdown__item">
+                                <p>
+                                    12
+                                </p>
+                                <p>
+                                    Giờ
+                                </p>
+                            </li>
+                            <li class="countdown__item">
+                                <p>
+                                    45
+                                </p>
+                                <p>
+                                    Phút
+                                </p>
+                            </li>
+                            <li class="countdown__item">
+                                <p>
+                                    57
+                                </p>
+                                <p>
+                                    Giây
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="form">
+                        <h5>Đăng kí ngay</h5>
+                        <p>Chỉ còn 9 suất!</p>
+                        <div class="form__input">
+                            <input placeholder="Họ và tên" type="text">
+                            <input placeholder="Điện thoại liên hệ" type="text">
+                        </div>
+                        <button class="btn btn--shadow form__submit">
+                            Đăng ký ngay
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 contact__banner">
+                    <div>
+                        <h4 class="textbox__info">Môi hồng tự nhiên</h4>
+                        <p class="textbox__desc">Căng mịn thêm phần quyến rũ</p>
+                    </div>
+                    <img src="./uploads/large-model.png" alt="">
+                    <div
+                        class="saleof  wow animate__animated animate__heartBeat animate__slow animate__delay-1s animate__infinite	">
+                        <p class="saleof__number">
+                            50
+                        </p>
+                        <div class="saleof__persent">
+                            <p>
+                                %
+                            </p>
+                            <p>
+                                OFF
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container d-flex footer__wrapper">
+            <div class="col-md-4 logo">
+                <img src="./uploads/Logo-footer.png" alt="">
+                <h2 class="footer__title">
+                    Viện thẩm mỹ
+                    Y khoa Dr.Lena
+                </h2>
+            </div>
+            <div class="col-md-8 company__info">
+                <p>Trụ sở chính</p>
+                <ul class="info__items">
+                    <li class="info__item">
+                        <span>
+                            <svg width="14" height="17" viewBox="0 0 14 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14 16.3342V17H0V16.3342C0 16.1075 0.173333 15.9375 0.373333 15.9375H1V0.793333C1 0.354167 1.33333 0 1.74667 0H12.2533C12.6667 0 13 0.354167 13 0.793333V15.9375H13.6267C13.8267 15.9375 14 16.1217 14 16.3342ZM4 3.85333C4 4.06583 4.17333 4.25 4.37333 4.25H5.62667C5.82667 4.25 6 4.06583 6 3.85333V2.52167C6 2.295 5.82667 2.125 5.62667 2.125H4.37333C4.17333 2.125 4 2.30917 4 2.52167V3.85333ZM4 7.04083C4 7.2675 4.17333 7.4375 4.37333 7.4375H5.62667C5.84 7.4375 6 7.25333 6 7.04083V5.70917C6 5.4825 5.82667 5.3125 5.62667 5.3125H4.37333C4.17333 5.3125 4 5.49667 4 5.70917V7.04083ZM6 10.2283V8.89667C6 8.68417 5.82667 8.5 5.62667 8.5H4.37333C4.17333 8.5 4 8.68417 4 8.89667V10.2283C4 10.4408 4.17333 10.625 4.37333 10.625H5.62667C5.82667 10.625 6 10.4408 6 10.2283ZM8 13.1467C8 12.9342 7.82667 12.75 7.62667 12.75H6.37333C6.17333 12.75 6 12.9342 6 13.1467V15.9375H8V13.1467ZM10 2.52167C10 2.295 9.82667 2.125 9.62667 2.125H8.37333C8.17333 2.125 8 2.30917 8 2.52167V3.85333C8 4.06583 8.17333 4.25 8.37333 4.25H9.62667C9.82667 4.25 10 4.06583 10 3.85333V2.52167ZM10 5.70917C10 5.4825 9.82667 5.3125 9.62667 5.3125H8.37333C8.17333 5.3125 8 5.49667 8 5.70917V7.04083C8 7.2675 8.17333 7.4375 8.37333 7.4375H9.62667C9.84 7.4375 10 7.25333 10 7.04083V5.70917ZM10 8.89667C10 8.68417 9.82667 8.5 9.62667 8.5H8.37333C8.17333 8.5 8 8.68417 8 8.89667V10.2283C8 10.4408 8.17333 10.625 8.37333 10.625H9.62667C9.84 10.625 10 10.4408 10 10.2283V8.89667Z"
+                                    fill="#E5AB55" />
+                            </svg>
+                        </span><span>42 Nguyễn Tất Thành, Định Trung, Vĩnh Yên, Vĩnh Phúc</span>
+                    </li>
+                    <li class="info__item">
+                        <span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16 12.0107C15.9787 11.6907 15.808 11.4347 15.552 11.3067L12.0533 9.81333C11.9467 9.77067 11.8613 9.74933 11.7547 9.74933C11.52 9.77067 11.3067 9.856 11.1787 10.0267L9.62133 11.9253C7.18933 10.7733 5.22667 8.81067 4.07467 6.37867L5.97333 4.82133C6.144 4.69333 6.22933 4.48 6.25067 4.24533C6.25067 4.13867 6.22933 4.032 6.18667 3.94667L4.69333 0.448C4.56533 0.192 4.30933 0.0213333 4.01067 0C3.94667 0 3.88267 0 3.84 0.0213333L0.576 0.768C0.256 0.853333 0.0213333 1.152 0 1.49333C0 9.51467 6.50667 16 14.5067 16C14.8693 16 15.168 15.744 15.232 15.424L15.9787 12.16C16 12.1173 16 12.0533 16 12.0107Z"
+                                    fill="#E5AB55" />
+                            </svg>
+                        </span><span>0961 096 599</span>
+                    </li>
+                    <li class="info__item">
+                        <span>
+                            <svg width="17" height="12" viewBox="0 0 17 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.06333 6.70667C1.6575 3.69333 1.3175 3.42667 0.311667 2.68C0.113333 2.54667 0 2.32 0 2.09333V1.50667C0 0.666667 0.708333 0 1.60083 0H15.4133C16.2917 0 17 0.666667 17 1.50667V2.10667C17 2.33333 16.8867 2.56 16.6883 2.69333C15.6683 3.44 15.3425 3.70667 10.9367 6.72C10.3842 7.09333 9.265 8.01333 8.5 8C7.735 8.01333 6.61583 7.09333 6.06333 6.70667ZM17 4.10667V10.4933C17 11.3333 16.2917 12 15.4133 12H1.60083C0.708333 12 0 11.3333 0 10.5067V4.10667C0 3.96 0.184167 3.86667 0.325833 3.96C1.0625 4.50667 2.05417 5.2 5.44 7.52C6.13417 8 7.32417 9.01333 8.5 9C9.69 9.01333 10.8942 7.97333 11.56 7.50667C14.9458 5.18667 15.9233 4.49333 16.6742 3.94667C16.8017 3.86667 17 3.96 17 4.10667Z"
+                                    fill="#E5AB55" />
+                            </svg>
+
+                        </span><span>drlena@drlena.vn</span>
+                    </li>
+                    <li class="info__item">
+                        <span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.0523 1.75731C11.8902 2.86271 10.388 3.61382 8.70151 3.76971V0C10.3454 0.141718 11.8477 0.779451 13.0523 1.75731ZM8.70151 12.2161V15.9858C10.3454 15.8441 11.8335 15.2064 13.0381 14.2285C11.8902 13.1373 10.388 12.3862 8.70151 12.2161ZM7.28432 16V12.2161C5.59787 12.3862 4.10983 13.1373 2.94774 14.2427C4.15235 15.2205 5.65456 15.8441 7.28432 16ZM7.28432 3.76971V0C5.65456 0.141718 4.15235 0.779451 2.94774 1.75731C4.10983 2.86271 5.59787 3.61382 7.28432 3.76971ZM8.70151 8.70151V10.7706C10.7848 10.9407 12.6696 11.8477 14.0868 13.2223C15.1497 11.9894 15.8441 10.4163 16 8.70151H8.70151ZM7.28432 7.28432V5.22941C5.20106 5.05934 3.31621 4.15235 1.89903 2.77768C0.85031 4.01063 0.15589 5.56953 0 7.28432H7.28432ZM8.70151 5.22941V7.29849H15.9858C15.8299 5.5837 15.1355 4.01063 14.0726 2.77768C12.6696 4.15235 10.7989 5.05934 8.70151 5.22941ZM7.28432 10.7706V8.70151H0C0.15589 10.4163 0.85031 11.9894 1.9132 13.2223C3.33038 11.8477 5.20106 10.9407 7.28432 10.7706Z"
+                                    fill="#E5AB55" />
+                            </svg>
+
+                        </span><span>www.drlena.vn</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./resources/jquery/jquery.min.js"></script>
+    <script src="./resources/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./resources/wow/wow.js"></script>
+    <script src="./scripts/slides.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+.container {
+    max-width: 1050px;
+    width: 1050px;
+  }
+  .container-fuild {
+    max-width: 1260px;
+    width: 1260px;
+    margin: auto;
+    padding: 0;
+  }
+  .mrx-5 {
+    @include mrx(5);
+  }
+  .mry-5 {
+    @include mrx(5);
+  }
+  .mt-2
+  {
+    @include mt(2.5);
+  }
+  .banner__countdown {
+    .countdown__item {
+      margin-top: 3rem;
+      width: 8rem;
+      & p:first-of-type {
+        font-size: $x-large;
+        letter-spacing: 0;
+        padding: 1.5rem 1.3rem 2.5rem 1.3rem;
+        background-color: #eb5757;
+        margin-right: 10px;
+        border-radius: $medium;
+        color: $color-white;
+        font-family: Playfair-nomal ;
+      }
+      & p:last-of-type {
+        text-align: center;
+        font-family: Roboto-500;
+        font-size: 1.6rem;
+        margin: 0 ;
+        line-height: 2;
+      }
+    }
+  }
+  p,
+  li,
+  span {
+    letter-spacing: 0.18em;
+  }
+  .d-flex {
+    display: flex;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-left
+  {
+    text-align: left !important;
+  }
+  .text-right
+  {
+    text-align: right;
+  }
+  .btn {
+    font-family: Roboto-300;
+    border-radius: 1.6rem;
+    padding: 1.2rem;
+    font-size: 1.4rem;
+    color: $color-white;
+    text-transform: uppercase;
+
+  }
+  .saleof {
+    background: linear-gradient(
+      127.21deg,
+      #bd6728 -43.73%,
+      #c47330 -32.67%,
+      #d79345 -12.63%,
+      #f5c767 13.92%,
+      #ffd872 22.11%,
+      #f1c062 33.65%,
+      #d59043 59.29%,
+      #c4722f 78.87%,
+      #bd6728 89.95%
+    );
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    color: $color-white;
+    padding: 1rem 1rem;
+    .saleof__number {
+      font-size: 96px;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      letter-spacing: 0;
+      font-family: Playfair-nomal;
+      padding-bottom: 4rem;
+    }
+    .saleof__persent {
+      & p:first-of-type {
+        font-size: 3.4rem;
+        font-family: Playfair-nomal;
+      }
+      & p:last-of-type {
+        font-size: 1.8rem;
+        line-height: 2;
+        text-transform: uppercase;
+        font-family: Roboto-500;
+      }
+    }
+  }
+  .btn--shadow {
+    box-shadow: 0px 4px 20px #c17607;
+    background: $color-gold;
+    letter-spacing: 0.18em;
+    margin: 3rem;
+    &:hover
+    {
+      background: $color-gold;
+      color: $color-white;
+      box-shadow: none;
+      border: solid 1px $color-white;
+    }
+  }
+  .btn--highlight {
+    box-shadow: 0;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    background: $color-gold;
+  }
+  .btn--outline
+  {
+    font-family: Roboto-500;
+    background: transparent;
+    color: $color-gold;
+    font-size: $nomal;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    border: 2px solid $color-gold;
+    transition: all .3 ease-in-out;
+    &:hover
+    {
+      background: $color-gold;
+      color: $color-white;
+    }
+  }
+  .section__title
+  {
+      font-family: Playfair-nomal;
+      color: $color-dark;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 5.4rem;
+      text-align: center;
+      margin: 1rem 0;
+      span 
+      {
+          font-family: Playfair-nomal;
+          font-size: 15rem;
+      }
+  }
+  .customer__slide , .company__img{
+    margin-left:calc((163 / 1366) * 100%);
+    position: relative;
+    .owl-carousel .owl-stage {
+      padding-top: 5rem;
+    }
+    .owl-carousel .owl-item img {
+      width: 100%;
+      object-fit: contain;
+    }
+    .owl-theme .owl-nav {
+      display: block;
+      & button:hover {
+        background: transparent;
+        color: $color-gray;
+      }
+    }
+    .slide__next--text {
+      font-family: Roboto-300;
+      font-size: 12px;
+      line-height: 1.24rem;
+      color: $color-gold;
+      text-transform: uppercase;
+      border-bottom: 1px solid $color-gold;
+      padding-bottom: 2px;
+      position: absolute;
+      top: -3rem;
+      right: 10%;
+
+      &::after {
+        content: " ";
+        background: $color-gold;
+        height: 2px;
+        position: absolute;
+        width: 2rem;
+        top: 2rem;
+        right: 0;
+        transform: skewY(155deg);
+      }
+      &:hover {
+        background: transparent;
+        color: $color-gray;
+      }
+    }
+  }
